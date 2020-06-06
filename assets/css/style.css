@@ -1,0 +1,376 @@
+ html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    padding:0px;
+    margin:0px;
+  }
+  *{
+    padding:0px;
+    margin: 0px;
+  }
+ body {
+
+      background: #edf3f4;;
+      /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+      /*font-size: 14px;*/
+      color:#000;
+    }
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      background-color: #1dbb90;
+
+    }
+    .swiper-slide .imgbox{
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+    }
+    .swiper-slide .imgbox img{
+      width: 100%;
+      height: 250px;
+    }
+    .swiper-slide .detail{
+      /*box-sizing: border-box;*/
+      margin-top: -45px;
+      /*padding: 20px;*/
+    }
+    .swiper-slide .detail  h3{
+      margin: 0;
+      padding:0;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+    }
+header{
+  background-color: white;
+}
+.bg-light{
+  background-color: white !important;
+}
+nav ul li{
+  margin: 10px;
+}
+nav ul li a{
+  color: #1dbb90 !important;
+  font-weight: 700;
+  font-family: Courgette-Regular;
+}
+nav ul li a:hover{
+  background-color: #1dbb90;
+  color: white !important;
+  box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.dropdown-menu a:hover {
+  background-color: #1dbb90;
+  color:#fff;
+}
+.banner{
+  background-color: #1eaace;
+}
+.jumbotron{
+  color: white !important;
+  text-align: center;
+  background-color: #1eaace;
+  
+}
+.btn{
+  background-color:white; 
+}
+
+.jumbotron a:hover{
+  background-color: #1dbb90;
+  color: white !important;
+  box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-weight: 700;
+}
+/*.about{
+  border-bottom: 3px solid #1dbb90;
+  border-width: 60px;
+  position: relative;
+}*/
+/*.about h1{
+  position: absolute;
+  padding: 10px;*/
+  /*margin-left: 50px;*/
+  /*display: table;
+  margin:0px auto;
+}*/
+.aboutbtn{
+  background-color: #f55c6d;
+  color:#fff;
+  box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.about a:hover{
+  background-color: #1dbb90;
+  color: white;
+}
+.aboutus{
+  background: url("../images/aboutus3.jpeg");
+  /*background-position: top;*/
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+
+
+}
+.about{
+  font-size: 18px;
+}
+.about-heading a{
+  text-decoration: none;
+}
+.about-heading h1{
+  font-size: 60px;
+
+
+  /*font-size: 10rem;*/
+  /*font-family: 'Bebas';*/
+  background:url("../images/book.jpg");
+  background-position: bottom;
+  -webkit-background-clip:text;
+  color: transparent;
+
+}
+.line{
+  border-bottom: 3px solid #1dbb90;
+  width: 200px;
+  margin:0px auto;
+}
+/*.text-center{
+  font-size: 30px;
+}*/
+.category{
+  background-color:#1eaace;
+  color: white; 
+}
+.category img{
+  width: 100%;
+  height: 300px;
+}
+.line1{
+  border-bottom: 3px solid white;
+  width: 100px;
+  margin:0px auto;
+}
+.category-item{
+  position: relative;
+}
+.category-item p{
+  /*position: absolute;*/
+  position: absolute;
+    width: 100%;
+    background: rgba(23,45,43,0.45);
+    font-size: 28px;
+    bottom: -15px;
+    color: #fff;
+    text-align: right;
+    padding-right: 15px;
+}
+.pub-para{
+  font-size:18px;
+}
+.color-icon{
+  border: #1dbb90;
+  background-color: #1dbb90;
+  width: 9.375em;
+    height: 9.375em;
+    margin: 0 auto;
+    line-height: 6.375em;
+    border-radius: 50%;
+    border-width: 0.188em;
+    border-style: solid;
+    padding: 4px 2px 0px 2px;
+}
+.icon-detail{
+  font-size:14px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.footer{
+  background-color: #2f332f;
+  color: #fff;
+}
+.footer p{
+  line-height:5px;
+  font-size: 12px;
+}
+.copy{
+  background-color: #1dbb90;
+}
+.footer-nav ul li{
+  display: inline-block;
+  padding-left: 10px;
+}
+.footer-nav a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer-nav a:hover{
+   background-color: #f55c6d;
+  box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  font-weight:bolder;
+}
+
+/*----------------Contact us page Css------------------*/
+.view-btn{
+  background-color: #dc2134;
+  color: #fff;
+  font-weight: bold;
+}
+.location a:hover{
+  background-color: #1dbb90;
+  box-shadow: -4px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  /*padding: 5px;*/
+  font-weight:bolder;
+  color: #fff;
+}
+.menu-head{
+  background-color: #1dbb90;
+  padding-top: 3px;
+  padding-bottom: -1px;
+}
+.m-head p a:hover{
+  background-color: #dc2134;
+  padding: 2px;
+}
+.m-head p a{
+  text-decoration: none;
+  color: #fff;
+}
+.m-head p{
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+/*Categories */
+.sidebar{
+  background-color: #1eaace;
+  color: #fff;
+}
+.nav-link{
+  color: #fff;
+  font-weight: bolder;
+}
+.sidebar a:hover{
+  color: #fff;
+}
+.nav-pills .nav-link.active{
+  background-color: #1dbb90;
+}
+.category-bg{
+  background:url("../images/islamicbg2.jpeg");
+  /*width: 100%;*/
+
+}
+.text{
+  background:url("../images/text.jpeg");
+}
+.islamic{
+  background:url("../images/islamicbg3.jpeg");
+
+}
+.sport{
+  background:url("../images/islamicbg3.jpeg");
+}
+.btn-success{
+  background-color: #218838;
+  color: #fff;
+}
+.btn-link{
+  background-color: #1dbb90;
+  color: #fff;
+  font-weight: bold;
+  
+}
+.card-header button:hover{
+  color: #fff;
+  font-weight: bolder;
+  text-decoration: none;
+}
+/*Text-book page*/
+.textbook{
+   background:url("../images/text.jpeg") no-repeat;
+   background-size: 100%;
+}
+/*Sport page*/
+.sport-btn{
+  background-color: #1dbb90;
+  color: #fff;
+  border:1px solid #1dbb90;
+}
+.heading hr{
+  border-width: 3px;
+  border-color: #1dbb90;
+  width: 250px;
+  margin:0px auto; 
+}
+/*stationery*/
+.stationery hr{
+  border-width: 3px;
+  border-color: #1dbb90;
+  width: 190px;
+  margin:0px auto; 
+}
+.card{
+  border:2px solid #1dbb90;
+}
+.card img{
+  border-bottom:4px solid #1dbb90;
+
+}
+.btn-stationery a{
+  background-color: #1dbb90;
+  border:2px solid #1dbb90;
+}
+/*Art*/
+.rs{
+  color: red;
+  font-weight: bolder;
+  font-size: 18px;
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+  .product{
+    margin: 0px;
+    padding: 0px;
+  }
+  .heading h3{
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .about-heading h1{
+  font-size: 35px;}
+  .jumbotron h1{
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .jumbotron p{
+    font-size: 18px;
+  }
+  .about p{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .pub-h1 {
+    font-size: 18px !important;
+  }
+  .pub-para {
+    font-size: 12px;
+  }
+  .footer-img img{
+    width: 80% !important;
+  }
+}
